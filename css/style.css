@@ -3,33 +3,72 @@
     background-color: black;
 }
 
-
 .flyer {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    size: 60%;
+    margin-right:auto;
+    width: 800px;
 }
-h2
- {
-  color: azure;
-  text-align: center; 
+
+h1 {
+    color: azure;
+    text-align: center;
+    font-size: 25px;
 }
 div {
     color: azure;
     text-align: center;
 }
-button {
-    background-color: azure;
-    padding: 5px;
-    border-radius: 5px;
+
+section {
+    display: flex;
+    position: relative;
+    top: auto;
+    text-align: center;
+    color: azure;
+    height: 400px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 30px;
+}
+article.rsvp {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
+
+article.cashapp {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    
+}
+
+img.cashapp {
+    width: 200px;
+    margin-left:auto;
+    margin-right: auto;
 
 }
+
+button {
+    background-color: black;
+    height:50px;
+    width: 200px;
+    border-color: rgba(190, 144, 27, 0.63);
+    border-radius: 5px;
+    color: rgba(177, 136, 33, 0.767);
+    margin-top: 120px;
+}
+
 button:hover {
-    background-color: rgba(195, 223, 223, 0.63);
+    background-color: rgba(58, 58, 58, 0.692);
     color: azure;
     position: relative;
 }
-footer {
-    padding: 10px;
+
+div.food {
+    padding-top: 15px;
+    font-size: 17px;
 }
